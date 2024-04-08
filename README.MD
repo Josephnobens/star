@@ -1,30 +1,22 @@
-# star
+const myAwesomeFunction = require('my-awesome-package');
 
-simple tar archive compression/decompression tool
+// Use it!
+myAwesomeFunction();
 
-## Install
+## Demo
 
-```rust
-    cargo install star
-```
+!My Awesome NPM Package in action
+## Configuration
 
-## Example
+My Awesome NPM Package supports the following options:
 
-```rust
-star c foo.xz Cargo.toml to foo/
+- `option1`: Set this to true for extra awesomeness (default: false).
+- `option2`: Customize the behavior (default: 'default').
 
-star c foo.xz from ./**/*.dll to lib/ from ./**/*.exe to bin/
+## Contributing
 
-star c foo.xz Cargo.toml to foo/Bar.toml
+Contributions are welcome! Please read our Contribution Guidelines.
 
-star x foo.xz
+## License
 
-star x foo.xz bar/
-```
-
-## more
-
-star --help
-
-
-License: GPL-3.0-only
+My Awesome NPM Package is released under the MIT License.
